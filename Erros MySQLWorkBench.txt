@@ -1,0 +1,10 @@
+**Erros do mySQL Workbench:**
+
+
+* Cannot add or update a child row: a foreign key constraint fails
+Alguma informação está errada ou trocada
+
+
+* Column count doesn't match value count at row 1
+foi selecionada uma coluna no 'INSERT INTO' mas não foi colocado o valor dele no 'VALUES'
+
