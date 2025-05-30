@@ -216,7 +216,6 @@ SELECT * FROM canteiroObra;
 
 CREATE VIEW relatorioEmpreiteira AS
 
-## Tabela da mais fraca até a mais forte
 SELECT ps.id_pessoa, pj.id_projeto, clb.matricula, clb.salario, clb.funcao FROM projeto pj # pj id_projeto, id_colaborador
 INNER JOIN colaborador clb ON clb.id_colaborador = pj.id_colaborador 
 INNER JOIN pessoa ps ON ps.id_pessoa = pj.id_pessoa;
